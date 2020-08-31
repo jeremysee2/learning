@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-const int num = 1;
+int num = 5;
 
 int main() {
+    for (; num<10; num++) 
+    {
     printf("Hello world #%d\n",num);
+    }
 }
