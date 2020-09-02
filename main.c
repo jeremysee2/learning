@@ -1,10 +1,23 @@
 #include <stdio.h>
+#include <string.h>
 
-int num = 5;
+void draw(int h)
+{
+  if (h == 0)
+  {
+    return;
+  }
+  else
+  {
+    draw(h-1);
+    for (int i = 0; i < h; i++) 
+    {
+      printf("#");
+    }
+    printf("\n");
+  }
+}
 
 int main() {
-    for (; num<10; num++) 
-    {
-    printf("Hello world #%d\n",num);
-    }
+    draw(3);
 }
