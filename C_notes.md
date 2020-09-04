@@ -222,7 +222,9 @@ Sorting algorithms
 * Selection sort
   * Iterate through the list and store the smallest value, then put it at the front once you go through the whole list. Repeat for each element.
   * O(n^2), omega(n^2)
-* 
+* Merge sort
+  * If one item, just return. Sort left half, sort right half, merge sorted halves.
+  * 
 
 Recursion
 
